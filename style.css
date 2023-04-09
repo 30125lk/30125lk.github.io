@@ -42,6 +42,18 @@ article {
   padding: 20px;
   border: 1px solid #333;
 }
+article a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-bottom: 1px solid #fff;
+  margin: 10px auto;
+  transition: 300ms;
+}
+article a:hover {
+  background-color: #fff;
+  color: #333;
+}
 aside {
   min-width: 300px;
   padding: 10px 20px;
